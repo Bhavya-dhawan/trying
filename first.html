@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying webdev</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #introduction {
+            background-color: #2f3e46 ;
+            color:white;
+             text-align: center;
+             padding:4% ;
+        }
+        .image-row {
+            display: flex;
+            gap: 50px;
+            justify-content: start;
+            padding-left: 30px;
+            position: relative;
+            left: 100px;
+
+        }
+
+        img.card{
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 5px;
+        }
+        .p-row{
+            display: flex;
+            gap: 290px;
+
+        }
+        p.description{
+            background-color: #52796f;
+            color: white;
+            vertical-align: super;
+            font-size: small;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius:10px ;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div >
+        <h1 id = "introduction">Hello!! Welcome to Practice.</h1>
+        <p style="font-size: 120%; text-align: center;">You can choose any one option from below</p>
+    </div>
+
+    <p style="color: #050c01;">Q1. What is my favourite dish?</p>
+    
+    <div class = "image-row">
+
+    <img  class = "card" src="images/pexels-catscoming-955137.jpg" alt="">
+    <img class="card" style="height: 180px ;" src="images/pexels-valeriya-842545.jpg" alt="">  
+    <img  class = "card" style="height: 180px ;"  src="images/pexels-mali-64208.jpg" alt="">       
+        
+    </div >
+    
+    <div class="p-row">
+       <a href="right.html"><p class="description" style="margin-left:200px ;">Munchow</p></a> 
+        <a href="wrong.html"><p class="description">Mutton</p></a>
+       <a href="wrong.html"> <p class="description">Soup</p></a>
+    </div>
+    
+</body>
+</html>
